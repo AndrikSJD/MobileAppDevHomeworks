@@ -34,9 +34,14 @@ class EditProduct : AppCompatActivity() {
             }
 
 
+
+
         } else {
             finish()
             return
+        }
+        binding.btnCerrar.setOnClickListener {
+            finish()
         }
     }
 }
